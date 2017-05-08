@@ -20,6 +20,7 @@ public class Door : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (openable == true)
         {
 
@@ -30,6 +31,7 @@ public class Door : MonoBehaviour
                 {
                     targetRotation *= Quaternion.AngleAxis(-90, Vector3.up);
                     audio.Play();
+                     StartCoroutine("stop");
                 }
                 transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, 10 * smooth * Time.deltaTime);
 
@@ -48,10 +50,20 @@ public class Door : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            done = true;
+            
             openable = false;
             transform.rotation=Quaternion.identity;
            
         }
     }
+    void Wait()
+    {
+        done = true;
+    }
+        IEnumerator stop()
+        {
+            yield return new WaitForSeconds(3f);
+        Wait();
+        }
+    
 }

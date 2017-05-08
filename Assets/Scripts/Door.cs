@@ -8,9 +8,11 @@ public class Door : MonoBehaviour
     private Quaternion targetRotation;
     bool openable;
     bool done;
+    new AudioSource audio;
     // Use this for initialization
     void Start()
     {
+        audio = GetComponent<AudioSource>();
         targetRotation = transform.rotation;
         done = false;
     }
@@ -27,7 +29,7 @@ public class Door : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     targetRotation *= Quaternion.AngleAxis(-90, Vector3.up);
-                   
+                    audio.Play();
                 }
                 transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, 10 * smooth * Time.deltaTime);
 

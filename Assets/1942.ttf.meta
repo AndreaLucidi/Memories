@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 98b0aa061281f30428032493274e6e3e
+timeCreated: 1497002701
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: 1942 report
+  fontNames:
+  - 1942 report
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

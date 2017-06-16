@@ -6,15 +6,20 @@ public class Door : MonoBehaviour
 {
     public float smooth = 2.0f;
     private Quaternion targetRotation;
-    bool openable;
-    bool done;
-    new AudioSource audio;
+    public bool openable;
+    public bool done;
+    public AudioSource audio1;
+    public AudioSource audio2;
+    private bool closed = false;
+    private Quaternion startRot;
+    public bool interaction;
     // Use this for initialization
     void Start()
     {
-        audio = GetComponent<AudioSource>();
+        startRot = transform.rotation;
         targetRotation = transform.rotation;
         done = false;
+        interaction = false;
     }
 
     // Update is called once per frame
@@ -29,12 +34,27 @@ public class Door : MonoBehaviour
 
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    startRot = transform.rotation;
+
                     targetRotation *= Quaternion.AngleAxis(-90, Vector3.up);
-                    audio.Play();
+                    audio1.Play();
                      StartCoroutine("stop");
+                   closed = true;
+                    
                 }
                 transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, 10 * smooth * Time.deltaTime);
+                if (interaction == true)
+                {
+                    targetRotation = startRot;
+                    openable = false;
+                    transform.rotation = startRot;
+                    if (closed == true)
+                    {
+                        audio2.Play();
+                        closed = false;
+                    }
 
+                }
             }
         }
     }
@@ -48,13 +68,7 @@ public class Door : MonoBehaviour
     }
     void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
-        {
-            
-            openable = false;
-            transform.rotation=Quaternion.identity;
-           
-        }
+       
     }
     void Wait()
     {

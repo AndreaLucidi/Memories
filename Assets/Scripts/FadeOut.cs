@@ -6,9 +6,9 @@ public class NewBehaviourScript : MonoBehaviour {
 
 
 
-	// FadeInOut
-	#pragma strict;
-	var fadeTexture ; Texture2D;
+    // FadeInOut
+#pragma strict;
+    var fadeTexture ; Texture2D;
 	var fadeSpeed = 0.2;
 	var drawDepth = -1000;
 

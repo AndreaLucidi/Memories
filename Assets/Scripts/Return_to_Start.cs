@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
 public class Return_to_Start : MonoBehaviour {
 
@@ -91,7 +88,7 @@ public class Return_to_Start : MonoBehaviour {
 
                 }
             }
-            if (name == "TP to start 6")
+           /* if (name == "TP to start 6")
             {
                 other.transform.position = new Vector3(28.9f, 35.5f, 22.14f);
                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
@@ -103,10 +100,11 @@ public class Return_to_Start : MonoBehaviour {
                     drs.GetComponent<Door>().interaction = false;
 
                 }
-            }
+                
+            }*/
             if (name == "TP to start 7")
             {
-                other.transform.position = new Vector3(28.9f, 42.5f, 22.14f);
+                other.transform.position = new Vector3(28.9f, 35.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
@@ -119,7 +117,7 @@ public class Return_to_Start : MonoBehaviour {
             }
             if (name == "TP to start 8")
             {
-                other.transform.position = new Vector3(28.9f, 49.5f, 22.14f);
+                other.transform.position = new Vector3(28.9f, 42.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
@@ -145,7 +143,7 @@ public class Return_to_Start : MonoBehaviour {
             }
             if (name == "TP to start 10")
             {
-                other.transform.position = new Vector3(28.9f, 63.5f, 22.14f);
+                other.transform.position = new Vector3(28.9f, 49.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
@@ -158,7 +156,7 @@ public class Return_to_Start : MonoBehaviour {
             }
             if (name == "TP to start 11")
             {
-                other.transform.position = new Vector3(28.9f, 70.5f, 22.14f);
+                other.transform.position = new Vector3(28.9f, 56.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
@@ -169,7 +167,7 @@ public class Return_to_Start : MonoBehaviour {
 
                 }
             }
-            if (name == "TP to start 12")
+            /*if (name == "TP to start 12")
             {
                 other.transform.position = new Vector3(28.9f, 77.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
@@ -181,10 +179,10 @@ public class Return_to_Start : MonoBehaviour {
                     drs.GetComponent<Door>().interaction = false;
 
                 }
-            }
+            }*/
             if (name == "TP to start 13")
             {
-                other.transform.position = new Vector3(28.9f, 84.5f, 22.14f);
+                other.transform.position = new Vector3(28.9f, 63.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
@@ -197,7 +195,7 @@ public class Return_to_Start : MonoBehaviour {
             }
             if (name == "TP to start 14")
             {
-                other.transform.position = new Vector3(28.9f, 91.5f, 22.14f);
+                other.transform.position = new Vector3(28.9f, 70.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
@@ -208,7 +206,7 @@ public class Return_to_Start : MonoBehaviour {
 
                 }
             }
-            if (name == "TP to start 15")
+            /*if (name == "TP to start 15")
             {
                 other.transform.position = new Vector3(28.9f, 98.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
@@ -220,10 +218,10 @@ public class Return_to_Start : MonoBehaviour {
                     drs.GetComponent<Door>().interaction = false;
 
                 }
-            }
+            }*/
             if (name == "TP to start 16")
             {
-                other.transform.position = new Vector3(28.9f, 105.5f, 22.14f);
+                other.transform.position = new Vector3(28.9f, 77.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
@@ -236,7 +234,7 @@ public class Return_to_Start : MonoBehaviour {
             }
             if (name == "TP to start 17")
             {
-                other.transform.position = new Vector3(28.9f, 112.5f, 22.14f);
+                other.transform.position = new Vector3(28.9f, 84.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
@@ -247,7 +245,7 @@ public class Return_to_Start : MonoBehaviour {
 
                 }
             }
-            if (name == "TP to start 18")
+            /*if (name == "TP to start 18")
             {
                 other.transform.position = new Vector3(28.9f, 119.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
@@ -259,10 +257,10 @@ public class Return_to_Start : MonoBehaviour {
                     drs.GetComponent<Door>().interaction = false;
 
                 }
-            }
+            }*/
             if (name == "TP to start 19")
             {
-                other.transform.position = new Vector3(28.9f, 126.5f, 22.14f);
+                other.transform.position = new Vector3(28.9f, 91.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
@@ -275,7 +273,7 @@ public class Return_to_Start : MonoBehaviour {
             }
             if (name == "TP to start 20")
             {
-                other.transform.position = new Vector3(28.9f, 133.5f, 22.14f);
+                other.transform.position = new Vector3(28.9f, 98.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
@@ -286,7 +284,7 @@ public class Return_to_Start : MonoBehaviour {
 
                 }
             }
-            if (name == "TP to start 21")
+            /*if (name == "TP to start 21")
             {
                 other.transform.position = new Vector3(28.9f, 140.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
@@ -298,10 +296,10 @@ public class Return_to_Start : MonoBehaviour {
                     drs.GetComponent<Door>().interaction = false;
 
                 }
-            }
+            }*/
             if (name == "TP to start 22")
             {
-                other.transform.position = new Vector3(28.9f, 147.5f, 22.14f);
+                other.transform.position = new Vector3(28.9f, 105.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
@@ -314,7 +312,7 @@ public class Return_to_Start : MonoBehaviour {
             }
             if (name == "TP to start 23")
             {
-                other.transform.position = new Vector3(28.9f, 154.5f, 22.14f);
+                other.transform.position = new Vector3(28.9f, 119.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
@@ -325,7 +323,7 @@ public class Return_to_Start : MonoBehaviour {
 
                 }
             }
-            if (name == "TP to start 24")
+            /*if (name == "TP to start 24")
             {
                 other.transform.position = new Vector3(28.9f, 161.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
@@ -337,10 +335,10 @@ public class Return_to_Start : MonoBehaviour {
                     drs.GetComponent<Door>().interaction = false;
 
                 }
-            }
+            }*/
             if (name == "TP to start 25")
             {
-                other.transform.position = new Vector3(28.9f, 168.5f, 22.14f);
+                other.transform.position = new Vector3(28.9f, 119.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
@@ -353,7 +351,7 @@ public class Return_to_Start : MonoBehaviour {
             }
             if (name == "TP to start 26")
             {
-                other.transform.position = new Vector3(28.9f, 175.5f, 22.14f);
+                other.transform.position = new Vector3(28.9f, 126.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
@@ -429,7 +427,20 @@ public class Return_to_Start : MonoBehaviour {
 
                 }
             }
-            if (name == "Go to next 6")
+            /*if (name == "Go to next 6")
+            {
+                other.transform.position = new Vector3(28.9f, 42.5f, 22.14f);
+                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
+                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
+                other.transform.rotation = Quaternion.Euler(0, 180, 0);
+                foreach (GameObject drs in doors)
+                {
+                    drs.GetComponent<Door>().done = false;
+                    drs.GetComponent<Door>().interaction = false;
+
+                }
+            }*/
+            if (name == "Go to next 7")
             {
                 other.transform.position = new Vector3(28.9f, 42.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
@@ -442,7 +453,7 @@ public class Return_to_Start : MonoBehaviour {
 
                 }
             }
-            if (name == "Go to next 7")
+            if (name == "Go to next 8")
             {
                 other.transform.position = new Vector3(28.9f, 49.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
@@ -455,7 +466,20 @@ public class Return_to_Start : MonoBehaviour {
 
                 }
             }
-            if (name == "Go to next 8")
+            /*if (name == "Go to next 9")
+            {
+                other.transform.position = new Vector3(28.9f, 63.5f, 22.14f);
+                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
+                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
+                other.transform.rotation = Quaternion.Euler(0, 180, 0);
+                foreach (GameObject drs in doors)
+                {
+                    drs.GetComponent<Door>().done = false;
+                    drs.GetComponent<Door>().interaction = false;
+
+                }
+            }*/
+            if (name == "Go to next 10")
             {
                 other.transform.position = new Vector3(28.9f, 56.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
@@ -468,7 +492,7 @@ public class Return_to_Start : MonoBehaviour {
 
                 }
             }
-            if (name == "Go to next 9")
+            if (name == "Go to next 11")
             {
                 other.transform.position = new Vector3(28.9f, 63.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
@@ -481,7 +505,20 @@ public class Return_to_Start : MonoBehaviour {
 
                 }
             }
-            if (name == "Go to next 10")
+            /*if (name == "Go to next 12")
+            {
+                other.transform.position = new Vector3(28.9f, 84.5f, 22.14f);
+                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
+                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
+                other.transform.rotation = Quaternion.Euler(0, 180, 0);
+                foreach (GameObject drs in doors)
+                {
+                    drs.GetComponent<Door>().done = false;
+                    drs.GetComponent<Door>().interaction = false;
+
+                }
+            }*/
+            if (name == "Go to next 13")
             {
                 other.transform.position = new Vector3(28.9f, 70.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
@@ -494,7 +531,7 @@ public class Return_to_Start : MonoBehaviour {
 
                 }
             }
-            if (name == "Go to next 11")
+            if (name == "Go to next 14")
             {
                 other.transform.position = new Vector3(28.9f, 77.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
@@ -507,7 +544,20 @@ public class Return_to_Start : MonoBehaviour {
 
                 }
             }
-            if (name == "Go to next 12")
+           /*if (name == "Go to next 15")
+            {
+                other.transform.position = new Vector3(28.9f, 84.5f, 22.14f);
+                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
+                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
+                other.transform.rotation = Quaternion.Euler(0, 180, 0);
+                foreach (GameObject drs in doors)
+                {
+                    drs.GetComponent<Door>().done = false;
+                    drs.GetComponent<Door>().interaction = false;
+
+                }
+            }*/
+            if (name == "Go to next 16")
             {
                 other.transform.position = new Vector3(28.9f, 84.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
@@ -520,7 +570,7 @@ public class Return_to_Start : MonoBehaviour {
 
                 }
             }
-            if (name == "Go to next 13")
+            if (name == "Go to next 17")
             {
                 other.transform.position = new Vector3(28.9f, 91.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
@@ -533,7 +583,20 @@ public class Return_to_Start : MonoBehaviour {
 
                 }
             }
-            if (name == "Go to next 14")
+            /*if (name == "Go to next 18")
+            {
+                other.transform.position = new Vector3(28.9f, 126.5f, 22.14f);
+                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
+                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
+                other.transform.rotation = Quaternion.Euler(0, 180, 0);
+                foreach (GameObject drs in doors)
+                {
+                    drs.GetComponent<Door>().done = false;
+                    drs.GetComponent<Door>().interaction = false;
+
+                }
+            }*/
+            if (name == "Go to next 19")
             {
                 other.transform.position = new Vector3(28.9f, 98.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
@@ -546,7 +609,7 @@ public class Return_to_Start : MonoBehaviour {
 
                 }
             }
-            if (name == "Go to next 15")
+            if (name == "Go to next 20")
             {
                 other.transform.position = new Vector3(28.9f, 105.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
@@ -559,7 +622,20 @@ public class Return_to_Start : MonoBehaviour {
 
                 }
             }
-            if (name == "Go to next 16")
+            /*if (name == "Go to next 21")
+            {
+                other.transform.position = new Vector3(28.9f, 147.5f, 22.14f);
+                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
+                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
+                other.transform.rotation = Quaternion.Euler(0, 180, 0);
+                foreach (GameObject drs in doors)
+                {
+                    drs.GetComponent<Door>().done = false;
+                    drs.GetComponent<Door>().interaction = false;
+
+                }
+            }*/
+            if (name == "Go to next 22")
             {
                 other.transform.position = new Vector3(28.9f, 112.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
@@ -572,7 +648,7 @@ public class Return_to_Start : MonoBehaviour {
 
                 }
             }
-            if (name == "Go to next 17")
+            if (name == "Go to next 23")
             {
                 other.transform.position = new Vector3(28.9f, 119.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
@@ -585,85 +661,7 @@ public class Return_to_Start : MonoBehaviour {
 
                 }
             }
-            if (name == "Go to next 18")
-            {
-                other.transform.position = new Vector3(28.9f, 126.5f, 22.14f);
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
-                other.transform.rotation = Quaternion.Euler(0, 180, 0);
-                foreach (GameObject drs in doors)
-                {
-                    drs.GetComponent<Door>().done = false;
-                    drs.GetComponent<Door>().interaction = false;
-
-                }
-            }
-            if (name == "Go to next 19")
-            {
-                other.transform.position = new Vector3(28.9f, 133.5f, 22.14f);
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
-                other.transform.rotation = Quaternion.Euler(0, 180, 0);
-                foreach (GameObject drs in doors)
-                {
-                    drs.GetComponent<Door>().done = false;
-                    drs.GetComponent<Door>().interaction = false;
-
-                }
-            }
-            if (name == "Go to next 20")
-            {
-                other.transform.position = new Vector3(28.9f, 140.5f, 22.14f);
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
-                other.transform.rotation = Quaternion.Euler(0, 180, 0);
-                foreach (GameObject drs in doors)
-                {
-                    drs.GetComponent<Door>().done = false;
-                    drs.GetComponent<Door>().interaction = false;
-
-                }
-            }
-            if (name == "Go to next 21")
-            {
-                other.transform.position = new Vector3(28.9f, 147.5f, 22.14f);
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
-                other.transform.rotation = Quaternion.Euler(0, 180, 0);
-                foreach (GameObject drs in doors)
-                {
-                    drs.GetComponent<Door>().done = false;
-                    drs.GetComponent<Door>().interaction = false;
-
-                }
-            }
-            if (name == "Go to next 22")
-            {
-                other.transform.position = new Vector3(28.9f, 154.5f, 22.14f);
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
-                other.transform.rotation = Quaternion.Euler(0, 180, 0);
-                foreach (GameObject drs in doors)
-                {
-                    drs.GetComponent<Door>().done = false;
-                    drs.GetComponent<Door>().interaction = false;
-
-                }
-            }
-            if (name == "Go to next 23")
-            {
-                other.transform.position = new Vector3(28.9f, 161.5f, 22.14f);
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
-                other.transform.rotation = Quaternion.Euler(0, 180, 0);
-                foreach (GameObject drs in doors)
-                {
-                    drs.GetComponent<Door>().done = false;
-                    drs.GetComponent<Door>().interaction = false;
-
-                }
-            }
-            if (name == "Go to next 24")
+            /*if (name == "Go to next 24")
             {
                 other.transform.position = new Vector3(28.9f, 168.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
@@ -675,10 +673,10 @@ public class Return_to_Start : MonoBehaviour {
                     drs.GetComponent<Door>().interaction = false;
 
                 }
-            }
+            }*/
             if (name == "Go to next 25")
             {
-                other.transform.position = new Vector3(28.9f, 175.5f, 22.14f);
+                other.transform.position = new Vector3(28.9f, 126.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);

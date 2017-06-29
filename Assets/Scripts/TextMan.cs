@@ -7,25 +7,22 @@ public class TextMan : MonoBehaviour
     private bool showText = false;
     public GameObject Testo;
 
-void OnMouseOver ()
-{
-        if (!showText)
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                showText = true;
-            }
-}
+    void OnTriggerEnter(Collider other)
+    {
 
-void Update () 
-{
-	if (showText) 
-	{
+        showText = true;
+
+    }
+
+    void Update()
+    {
+        if (showText)
+        {
             if (name == "Text 1")
             {
-                //GUI.Button(new Rect((Screen.width) / 2 - (Screen.width) / 4, (Screen.height) / 2 - (Screen.height) / 4, (Screen.width) / 2, (Screen.height) / 2), "When I entered into that helicopter, \r\n I knew that I would never get back home. \r\n I was sitting next to Billy and Johnny, \r\n my two childhood friends, and Billy was shaking... \r\n I tried to calm him, but it was useless \r\n “we all gonna die in that fucking jungle” \r\n he kept murmuring during all the trip “we all gonna die...”.");
                 Testo.SetActive(true);
                 Testo.GetComponentInChildren<Text>().text = "When I entered into that helicopter, I knew that I would never get back home. I was sitting next to Billy and Johnny, my two childhood friends, and Billy was shaking...I tried to calm him, but it was useless “we all gonna die in that fucking jungle” he kept murmuring during all the trip “we all gonna die...”.";
-              
+
                 if (Input.GetKeyDown(KeyCode.Q))
                 {
                     showText = false;
@@ -195,14 +192,165 @@ void Update ()
             if (name == "Text 26")
             {
                 Testo.SetActive(true);
-                Testo.GetComponentInChildren<Text>().text = "After one year, we survived in 5. I was tired and so done with all these bullshits. I just want to EXIT this fucking period. And so it happened… Did I get home? Well, not exactly";
+                Testo.GetComponentInChildren<Text>().text = "After one year, we survived in 5. I was tired and so done with all these bullshits. I just want to EXIT this fucking period.";
                 if (Input.GetKeyDown(KeyCode.Q))
                 {
                     showText = false;
                     Testo.SetActive(false);
                 }
             }
+            if (name == "WText 1")
+            {
+                Testo.SetActive(true);
+                Testo.GetComponentInChildren<Text>().text = "The first thing I noticed was a mass grave next to our camp, and I found it horrible...I can’t believe I may have been there one day or another…";
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    showText = false;
+                    Testo.SetActive(false);
+                }
+            }
+            if (name == "WText 2")
+            {
+                Testo.SetActive(true);
+                Testo.GetComponentInChildren<Text>().text = "All the paths were exactly the same, It used to be very easy to get lost in that jungle so we decided to put some marks on the threes to never get lost again.";
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    showText = false;
+                    Testo.SetActive(false);
+                }
+            }
+            if (name == "WText 4")
+            {
+                Testo.SetActive(true);
+                Testo.GetComponentInChildren<Text>().text = "In New Orleans I have a very nice dog, her name is Sissy and I miss her every single day. She’s so happy everytime she sees me and I can’t wait to hug her again…";
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    showText = false;
+                    Testo.SetActive(false);
+                }
+            }
+            if (name == "WText 5")
+            {
+                Testo.SetActive(true);
+                Testo.GetComponentInChildren<Text>().text = "Helping each other was the rule, anyone else will leave the weak ones behind...but not me, I’ll always give them an hand.";
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    showText = false;
+                    Testo.SetActive(false);
+                }
+            }
+            if (name == "WText 7")
+            {
+                Testo.SetActive(true);
+                Testo.GetComponentInChildren<Text>().text = "Sometimes we have to took a very precarious boat to pass through a river and one day our anchor got broken so we have to jump in the water and start swimming into the tempestuous brook, two of us died drowned, terrible experience.";
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    showText = false;
+                    Testo.SetActive(false);
+                }
+            }
+            if (name == "WText 8")
+            {
+                Testo.SetActive(true);
+                Testo.GetComponentInChildren<Text>().text = "One night I was sitting outside on patrol and I looked up to the sky...all those stars, they were so bright and stunning, I’ve never seen a sky as beautiful as this in New Orleans, who knows I would have found it in Vietnam?";
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    showText = false;
+                    Testo.SetActive(false);
+                }
+            }
+            if (name == "WText 10")
+            {
+                Testo.SetActive(true);
+                Testo.GetComponentInChildren<Text>().text = "The worst parts of this war were the foxholes: they were dirty, rotten, stinky and tiny and the air was a miasma. I never thought this was gonna be my house for all these time, I bet I have hepatitis...for fuck sake.";
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    showText = false;
+                    Testo.SetActive(false);
+                }
+            }
+            if (name == "WText 11")
+            {
+                Testo.SetActive(true);
+                Testo.GetComponentInChildren<Text>().text = "It was an hot morning when my commander allow me to shoot with a bazooka from one of our helicopters and I was terrified: if I didn’t get the village with one hit they will know our position and kill us all. I was lucky,I destroyed the village...but, am I a monster?";
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    showText = false;
+                    Testo.SetActive(false);
+                }
+            }
+            if (name == "WText 13")
+            {
+                Testo.SetActive(true);
+                Testo.GetComponentInChildren<Text>().text = "Everytime I keep saying my self “he’s dead”, my memories  went to the past. My granpa too was a soldier; I was a child when he died and at his  funeral I stayed all day long sitting on the ground next to his grave. I used to love him, he was a nice man. When the evening came my stomach started to grumble and so I walked to the cemetery’s gates but the doors were closed. I felt alone and abandoned.";
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    showText = false;
+                    Testo.SetActive(false);
+                }
+            }
+            if (name == "WText 14")
+            {
+                Testo.SetActive(true);
+                Testo.GetComponentInChildren<Text>().text = "Too many people were  dying in this fucking war. Suddenly a quote from my favorite wirter, Ernest Hemingway  came in my mind  “Never think that war, no matter how necessary, nor how justified, is not a crime.”";
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    showText = false;
+                    Testo.SetActive(false);
+                }
+            }
+            if (name == "WText 16")
+            {
+                Testo.SetActive(true);
+                Testo.GetComponentInChildren<Text>().text = "We tried to escape by jumping off a little cliff but they took us just in time: I didn’t noticed that the cliff was little but just at the end of it, there was a tiger sleeping. That filthy Vietcong saved our U-ASS-A (saved our lives)";
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    showText = false;
+                    Testo.SetActive(false);
+                }
+            }
+            if (name == "WText 17")
+            {
+                Testo.SetActive(true);
+                Testo.GetComponentInChildren<Text>().text = "Sometimes that girl used to took me some little presents, like food or some fresh water. But the biggest gift she use to gave me were one or two sigarettes that she stoled from her village’s army. She used to bring a pair of them: one for me and of course one for her. In those moments all the tension flyed away because she always thoughts about me.";
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    showText = false;
+                    Testo.SetActive(false);
+                }
+            }
+            if (name == "WText 19")
+            {
+                Testo.SetActive(true);
+                Testo.GetComponentInChildren<Text>().text = "The situation was going from bad to wrost, like there was no end. Immediatly I thought about that fucking lime that everyone uses here: sour as hell. And I was getting sour too, all because of this fucking war.";
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    showText = false;
+                    Testo.SetActive(false);
+                }
+            }
+            if (name == "WText 25")
+            {
+                Testo.SetActive(true);
+                Testo.GetComponentInChildren<Text>().text = "Inside Billy’s tent I found a dreamcatcher, like the one that the old Vietnamese lady gave us in that lost village. He should have been there, but how? Maybe God was sending me a sign: my friends were both dead, trapped in this dreamcatcher.";
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    showText = false;
+                    Testo.SetActive(false);
+                }
+            }
+            if (name == "WText 23")
+            {
+                Testo.SetActive(true);
+                Testo.GetComponentInChildren<Text>().text = "I went back to the camp alone and I went into Billy’s tent: there was a piece of paper and there was written “I look inside myself and see my heart is black” God, he used to love that song…";
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    showText = false;
+                    Testo.SetActive(false);
+                }
+
+            }
         }
+
     }
-    
 }

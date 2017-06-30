@@ -299,7 +299,7 @@ public class Return_to_Start : MonoBehaviour {
             }*/
             if (name == "TP to start 22")
             {
-                other.transform.position = new Vector3(28.9f, 105.5f, 22.14f);
+                other.transform.position = new Vector3(28.9f, 112.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);

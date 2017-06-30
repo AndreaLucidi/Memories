@@ -350,6 +350,17 @@ public class TextMan : MonoBehaviour
                 }
 
             }
+            if (name == "WText 22")
+            {
+                Testo.SetActive(true);
+                Testo.GetComponentInChildren<Text>().text = "And then he jumped off that waterfall. My best friend killed himself right in front of me, I was speechless; I tried to look down to see if he was swimming, but what I saw was only his body slowly skimming. “FUCK” I screamed until my lungs collapsed and then I cried again…I decided to took some branches and made two symbolical crosses, one for Johnny and one for Billy: They weren’t just my two best friends, they were my family, my life - saving anchor, I’ll miss them forever and ever.";
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    showText = false;
+                    Testo.SetActive(false);
+                }
+
+            }
         }
 
     }

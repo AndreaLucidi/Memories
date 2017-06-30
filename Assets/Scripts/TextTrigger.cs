@@ -38,7 +38,7 @@ public class TextTrigger : MonoBehaviour
         if (name == "Special Text 1")
             {
                 Testo.SetActive(true);
-                Testo.GetComponentInChildren<Text>().text = "One day we’ve been kidnapped by some viet congs and I was scared as a fuck about our lives; luckily they didn’t tortured me and Billy, but some soldiers of our army were brutally killed.";
+                Testo.GetComponentInChildren<Text>().text = "One day we’ve been kidnapped by some viet congs and I was scared about our lives; luckily they didn’t tortured me and Billy, but some soldiers of our army were brutally killed.";
                 if (Input.GetKeyDown(KeyCode.Q))
                 {
                     showText = false;
@@ -48,7 +48,7 @@ public class TextTrigger : MonoBehaviour
             if (name == "Special Text 2")
             {
                 Testo.SetActive(true);
-                Testo.GetComponentInChildren<Text>().text = "We went to our camp and, of course, they burned it down. From those ashes we build a new one in less than a week; we took this short time because most of us were already killed: from 100 soldiers, we were remained only 30.";
+                Testo.GetComponentInChildren<Text>().text = "We went to our camp and, of course, they burned it down. We worked so hard to build a new one: from 100 soldiers, we were remained only 30.";
                 if (Input.GetKeyDown(KeyCode.Q))
                 {
                     showText = false;

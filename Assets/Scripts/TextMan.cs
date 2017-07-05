@@ -332,7 +332,7 @@ public class TextMan : MonoBehaviour
             if (name == "WText 25")
             {
                 Testo.SetActive(true);
-				Testo.GetComponentInChildren<Text>().text = "I went into Billy’s tent: there was a picture of us three the day we enjoyed the army and on the back side there was written “I look inside myself and see my heart is black” God, he used to love that song…I sang it with my voice broken from crying...";
+				Testo.GetComponentInChildren<Text>().text = "Inside Billy’s tent I found a dreamcatcher, like the one that the old Vietnamese lady gave us in that village. He should have been there, but how? Maybe God was sending me a sign: my friends were both dead, trapped in this dreamcatcher...I will cherish it forever.";
                 if (Input.GetKeyDown(KeyCode.Q))
                 {
                     showText = false;
@@ -342,7 +342,7 @@ public class TextMan : MonoBehaviour
             if (name == "WText 23")
             {
                 Testo.SetActive(true);
-				Testo.GetComponentInChildren<Text>().text = " Inside Billy’s tent I found a dreamcatcher, like the one that the old Vietnamese lady gave us in that village. He should have been there, but how? Maybe God was sending me a sign: my friends were both dead, trapped in this dreamcatcher...I will cherish it forever.";
+				Testo.GetComponentInChildren<Text>().text = "I went into Billy’s tent: there was a picture of us three the day we enjoyed the army and on the back side there was written “I look inside myself and see my heart is black” God, he used to love that song…I sang it with my voice broken from crying...";
                 if (Input.GetKeyDown(KeyCode.Q))
                 {
                     showText = false;

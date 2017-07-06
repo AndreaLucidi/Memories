@@ -7,7 +7,7 @@ public class Return_to_Start : MonoBehaviour {
     public Quaternion castrRot;
     public Quaternion chstrRot;
     // Use this for initialization
-	void Start () {
+	void Start() {
        doors =  GameObject.FindGameObjectsWithTag("Door");
        Player = GameObject.FindGameObjectWithTag("Player");
        castrRot = Player.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot;
@@ -65,8 +65,8 @@ public class Return_to_Start : MonoBehaviour {
             if (name == "TP to start 4")
             {
                 other.transform.position = new Vector3(28.9f, 21.5f, 22.14f);
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
+               other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
+               other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
                 foreach (GameObject drs in doors)
                 {
@@ -79,7 +79,7 @@ public class Return_to_Start : MonoBehaviour {
             {
                 other.transform.position = new Vector3(28.9f, 28.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
-               other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
+              other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
                 foreach (GameObject drs in doors)
                 {
@@ -119,7 +119,7 @@ public class Return_to_Start : MonoBehaviour {
             {
                 other.transform.position = new Vector3(28.9f, 42.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
+               other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
                 foreach (GameObject drs in doors)
                 {
@@ -144,7 +144,7 @@ public class Return_to_Start : MonoBehaviour {
             if (name == "TP to start 10")
             {
                 other.transform.position = new Vector3(28.9f, 49.5f, 22.14f);
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
+               other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
                 foreach (GameObject drs in doors)
@@ -157,8 +157,8 @@ public class Return_to_Start : MonoBehaviour {
             if (name == "TP to start 11")
             {
                 other.transform.position = new Vector3(28.9f, 56.5f, 22.14f);
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
+               other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
+               other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
                 foreach (GameObject drs in doors)
                 {
@@ -339,7 +339,7 @@ public class Return_to_Start : MonoBehaviour {
             if (name == "TP to start 25")
             {
                 other.transform.position = new Vector3(28.9f, 119.5f, 22.14f);
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
+               other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
                 foreach (GameObject drs in doors)
@@ -352,7 +352,7 @@ public class Return_to_Start : MonoBehaviour {
             if (name == "TP to start 26")
             {
                 other.transform.position = new Vector3(28.9f, 126.5f, 22.14f);
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
+               other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
                 foreach (GameObject drs in doors)
@@ -392,7 +392,7 @@ public class Return_to_Start : MonoBehaviour {
             {
                 other.transform.position = new Vector3(28.9f, 21.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
+               other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
                 foreach (GameObject drs in doors)
                 {
@@ -404,8 +404,8 @@ public class Return_to_Start : MonoBehaviour {
             if (name == "Go to next 4")
             {
                 other.transform.position = new Vector3(28.9f, 28.5f, 22.14f);
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
+               other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
+               other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
                 foreach (GameObject drs in doors)
                 {
@@ -417,8 +417,8 @@ public class Return_to_Start : MonoBehaviour {
             if (name == "Go to next 5")
             {
                 other.transform.position = new Vector3(28.9f, 35.5f, 22.14f);
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
+               other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
+               other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
                 foreach (GameObject drs in doors)
                 {
@@ -444,7 +444,7 @@ public class Return_to_Start : MonoBehaviour {
             {
                 other.transform.position = new Vector3(28.9f, 42.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
+               other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
                 foreach (GameObject drs in doors)
                 {
@@ -483,7 +483,7 @@ public class Return_to_Start : MonoBehaviour {
             {
                 other.transform.position = new Vector3(28.9f, 56.5f, 22.14f);
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
+               other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
                 foreach (GameObject drs in doors)
                 {
@@ -573,7 +573,7 @@ public class Return_to_Start : MonoBehaviour {
             if (name == "Go to next 17")
             {
                 other.transform.position = new Vector3(28.9f, 91.5f, 22.14f);
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
+               other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
                 other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
                 foreach (GameObject drs in doors)
@@ -612,8 +612,8 @@ public class Return_to_Start : MonoBehaviour {
             if (name == "Go to next 20")
             {
                 other.transform.position = new Vector3(28.9f, 105.5f, 22.14f);
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
+               other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
+               other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
                 foreach (GameObject drs in doors)
                 {
@@ -638,8 +638,8 @@ public class Return_to_Start : MonoBehaviour {
             if (name == "Go to next 22")
             {
                 other.transform.position = new Vector3(28.9f, 112.5f, 22.14f);
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
-                other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
+               other.GetComponent<FirstPersonController>().m_MouseLook.m_CameraTargetRot = castrRot;
+               other.GetComponent<FirstPersonController>().m_MouseLook.m_CharacterTargetRot = chstrRot;
                 other.transform.rotation = Quaternion.Euler(0, 180, 0);
                 foreach (GameObject drs in doors)
                 {

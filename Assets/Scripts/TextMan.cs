@@ -112,7 +112,7 @@ public class TextMan : MonoBehaviour
             if (name == "Text 14")
             {
                 Testo.SetActive(true);
-                Testo.GetComponentInChildren<Text>().text = "Billy was a fragile soul, and he’s ginger hair already said it for him. His mum used to make us lemonade every time we were at her house, what a lovely human being…Billy lost her because of breast cancer three years ago and this made him an orphan because his dad was a cop and, during a robbery, a man head-shot him: Billy was only 6 when this happened. He’s the best friend a man can wish for, I would be killed to save his life.";
+                Testo.GetComponentInChildren<Text>().text = "Billy was a fragile soul, and his ginger hair already said it for him. His mum used to make us lemonade every time we were at her house, what a lovely human being…Billy lost her because of breast cancer three years ago and this made him an orphan because his dad was a cop and, during a robbery, a man head-shot him: Billy was only 6 when this happened. He’s the best friend a man can wish for, I would be killed to save his life.";
                 if (Input.GetKeyDown(KeyCode.Q))
                 {
                     showText = false;

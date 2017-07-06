@@ -162,7 +162,7 @@ public class TextMan : MonoBehaviour
             if (name == "Text 22")
             {
                 Testo.SetActive(true);
-                Testo.GetComponentInChildren<Text>().text = "And then he jumped off that waterfall. My best friend killed himself right in front of me. I look down and I saw his corpse. I screamed until my lungs collapsed and then I cried again…at the camp, I decided to took some branches and made two symbolical crosses, one for Johnny and one for Billy: They weren’t just my two best friends, they were my family, my life - saving anchor, I’ll miss them forever and ever.";
+                Testo.GetComponentInChildren<Text>().text = "And then he jumped off that waterfall. My best friend killed himself right in front of me. I looked down and I saw his corpse. I screamed until my lungs collapsed and then I cried again…at the camp, I decided to took some branches and made two symbolical crosses, one for Johnny and one for Billy: They weren’t just my two best friends, they were my family, my life - saving anchor, I’ll miss them forever and ever.";
                 if (Input.GetKeyDown(KeyCode.Q))
                 {
                     showText = false;
